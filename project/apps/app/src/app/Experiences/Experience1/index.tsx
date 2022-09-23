@@ -43,6 +43,10 @@ const Experience = () => {
     }
   };
 
+  const handleRestart = () => {
+    setState({ run: true, steps: steps });
+  };
+
   return (
     <>
       <Joyride
@@ -72,6 +76,7 @@ const Experience = () => {
       <div className="fourth">
         <h2 className="title">Title4</h2>
       </div>
+      <button onClick={handleRestart}>Restart tutorial</button>
     </>
   );
 };
