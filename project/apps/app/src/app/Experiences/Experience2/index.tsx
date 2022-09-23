@@ -60,11 +60,16 @@ const Experience = () => {
         steps={steps as Step[]}
         styles={{
           options: {
+            arrowColor: '#e3ffeb',
             zIndex: 10000,
+            overlayColor: 'rgba(0, 0, 0, 0.4)',
+            backgroundColor: '#e3ffeb',
+            primaryColor: '#000',
+            textColor: '#004a14',
           },
         }}
       />
-      <div className="experience1">
+      <div className="experience2">
         <div className="first">
           <h2 className="title">Title 1</h2>
         </div>
